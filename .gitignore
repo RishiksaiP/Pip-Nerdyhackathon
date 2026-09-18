@@ -1,0 +1,16 @@
+node_modules/
+.next/
+dist/
+.env
+.env.local
+.npm-cache/
+.pip-run/
+.pip-tools/
+models/
+artifacts/test-results/
+artifacts/playwright-report/
+tsconfig.tsbuildinfo
+.sites-runtime/
+.vinext/
+.wrangler/
+artifacts/live-browser/

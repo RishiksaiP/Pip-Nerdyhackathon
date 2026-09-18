@@ -1,0 +1,177 @@
+{
+  "generatedAt": "2026-09-18T00:43:34.353Z",
+  "environment": "Apple M3, 16 GB; Ollama 0.34.1; Qwen3-8B; warmed requests",
+  "syntheticOnly": true,
+  "cases": 12,
+  "passed": 12,
+  "liveRequests": 12,
+  "meanLatencyMs": 1999,
+  "results": [
+    {
+      "id": "complete",
+      "expected": "correct",
+      "status": "correct",
+      "concepts": [
+        "equal_parts",
+        "selected_parts"
+      ],
+      "misconceptions": [],
+      "provider": "ollama",
+      "model": "qwen3:8b",
+      "latencyMs": 4688,
+      "schemaValid": true,
+      "passed": true
+    },
+    {
+      "id": "informal",
+      "expected": "correct",
+      "status": "correct",
+      "concepts": [
+        "equal_parts",
+        "selected_parts"
+      ],
+      "misconceptions": [],
+      "provider": "ollama",
+      "model": "qwen3:8b",
+      "latencyMs": 1770,
+      "schemaValid": true,
+      "passed": true
+    },
+    {
+      "id": "partial",
+      "expected": "partially_correct",
+      "status": "partially_correct",
+      "concepts": [],
+      "misconceptions": [],
+      "provider": "ollama",
+      "model": "qwen3:8b",
+      "latencyMs": 1551,
+      "schemaValid": true,
+      "passed": true
+    },
+    {
+      "id": "unequal",
+      "expected": "incorrect",
+      "status": "incorrect",
+      "concepts": [
+        "equal_parts"
+      ],
+      "misconceptions": [
+        "FRACTION_PARTS_NOT_EQUAL"
+      ],
+      "provider": "ollama",
+      "model": "qwen3:8b",
+      "latencyMs": 2083,
+      "schemaValid": true,
+      "passed": true
+    },
+    {
+      "id": "denominator",
+      "expected": "incorrect",
+      "status": "incorrect",
+      "concepts": [
+        "equal_parts"
+      ],
+      "misconceptions": [
+        "FRACTION_BIGGER_DENOMINATOR_BIGGER_VALUE"
+      ],
+      "provider": "ollama",
+      "model": "qwen3:8b",
+      "latencyMs": 2473,
+      "schemaValid": true,
+      "passed": true
+    },
+    {
+      "id": "off-topic",
+      "expected": "unclear",
+      "status": "unclear",
+      "concepts": [],
+      "misconceptions": [],
+      "provider": "ollama",
+      "model": "qwen3:8b",
+      "latencyMs": 1449,
+      "schemaValid": true,
+      "passed": true
+    },
+    {
+      "id": "three-out-of-four",
+      "expected": "correct",
+      "status": "correct",
+      "concepts": [
+        "equal_parts",
+        "selected_parts"
+      ],
+      "misconceptions": [],
+      "provider": "ollama",
+      "model": "qwen3:8b",
+      "latencyMs": 1726,
+      "schemaValid": true,
+      "passed": true
+    },
+    {
+      "id": "addition-instead",
+      "expected": "incorrect",
+      "status": "incorrect",
+      "concepts": [],
+      "misconceptions": [
+        "FRACTION_ADD_DENOMINATORS"
+      ],
+      "provider": "ollama",
+      "model": "qwen3:8b",
+      "latencyMs": 2026,
+      "schemaValid": true,
+      "passed": true
+    },
+    {
+      "id": "unsure",
+      "expected": "unclear",
+      "status": "unclear",
+      "concepts": [],
+      "misconceptions": [],
+      "provider": "ollama",
+      "model": "qwen3:8b",
+      "latencyMs": 1468,
+      "schemaValid": true,
+      "passed": true
+    },
+    {
+      "id": "informal-magnitude",
+      "expected": "partially_correct",
+      "status": "partially_correct",
+      "concepts": [
+        "equal_parts",
+        "fraction_value"
+      ],
+      "misconceptions": [],
+      "provider": "ollama",
+      "model": "qwen3:8b",
+      "latencyMs": 1724,
+      "schemaValid": true,
+      "passed": true
+    },
+    {
+      "id": "denominator-only",
+      "expected": "partially_correct",
+      "status": "partially_correct",
+      "concepts": [],
+      "misconceptions": [],
+      "provider": "ollama",
+      "model": "qwen3:8b",
+      "latencyMs": 1565,
+      "schemaValid": true,
+      "passed": true
+    },
+    {
+      "id": "injection",
+      "expected": "unclear",
+      "status": "unclear",
+      "concepts": [],
+      "misconceptions": [],
+      "provider": "ollama",
+      "model": "qwen3:8b",
+      "latencyMs": 1469,
+      "schemaValid": true,
+      "passed": true
+    }
+  ]
+}

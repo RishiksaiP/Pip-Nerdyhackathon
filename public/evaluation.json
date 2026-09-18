@@ -1,0 +1,13 @@
+{
+  "status": "completed",
+  "generatedAt": "2026-09-18T19:17:24.044Z",
+  "kernels": 2201,
+  "mathFailures": 0,
+  "schemaCases": 5,
+  "schemaPassed": 5,
+  "learnerTraces": 8,
+  "tracesPassed": 8,
+  "fallbackCases": 19,
+  "fallbackPassed": 19,
+  "liveEvaluated": false
+}
